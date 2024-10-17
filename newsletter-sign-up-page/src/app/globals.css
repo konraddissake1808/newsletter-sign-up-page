@@ -90,3 +90,13 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+#page-image {
+  background-image: url(../../public/images/illustration-sign-up-mobile.svg);
+}
+
+@media (width > 767px) {
+  #page-image {
+    background-image: url(../../public/images/illustration-sign-up-desktop.svg);
+  }
+}
