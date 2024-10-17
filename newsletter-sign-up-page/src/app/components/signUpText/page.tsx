@@ -29,7 +29,7 @@ function SignUpText() {
                     <div>
                         <Image src={checkSVG} alt=''></Image>
                     </div>
-                    <p>And much more</p>
+                    <p>And much more!</p>
                 </div>
             </div>
         </div>
