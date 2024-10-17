@@ -9,10 +9,6 @@ const config: Config = {
   ],
   theme: {
   	extend: {
-		fontFamily: {
-			robotoBold: ['var(--font-roboto-bold)'],
-			robotoRegular: ['var(--font-roboto-regular'],
-		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
