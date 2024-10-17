@@ -20,7 +20,7 @@ const RobotoBold = localFont({
 
 const RobotoRegular = localFont({
   src: "./fonts/Roboto-Regular.ttf",
-  variable: "--font-roboto-bold",
+  variable: "--font-roboto-regular",
 });
 
 export const metadata: Metadata = {
