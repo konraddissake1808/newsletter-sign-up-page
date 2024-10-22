@@ -1,13 +1,11 @@
 'use client'
-import React/*, { useState }*/ from 'react'
+import React from 'react'
 
 
 function SignUpPageImage() {
-  //const [src, setSrc] = useState(MobileImage)
-    
       return (
-        <div id='image-container' className='w-full h-[224px]'>
-          <div id='page-image' className='h-full bg-cover rounded-b-xl'></div>
+        <div id='image-container' className='w-full h-[224px] lg:h-full lg:w-1/2 lg:flex lg:justify-center lg:items-center'>
+          <div id='page-image' className='h-full bg-cover lg:rounded-xl rounded-b-xl lg:h-[96%] lg:w-[95%]'></div>
         </div>
       )
 }

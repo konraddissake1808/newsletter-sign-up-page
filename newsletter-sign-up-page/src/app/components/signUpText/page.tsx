@@ -6,7 +6,7 @@ function SignUpText() {
   return (
     <div className='w-full flex justify-center text-sm'>
         <div className='w-5/6'>
-            <div className='mt-10 mb-6'>
+            <div className='mt-10 mb-6 sm:mt-11'>
                 <p className='font-roboB text-[32px]'>Stay updated!</p>
             </div>
             <div>

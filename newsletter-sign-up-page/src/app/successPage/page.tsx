@@ -25,7 +25,7 @@ function SuccessPage() {
           </div>
         </div>
         <div>
-          <Button className="w-full h-10 text-sm mb-9" onClick={ () => {router.push('../signUpPage')}}>Dismiss Message</Button>
+          <Button className="w-full h-10 text-sm mb-9 sm:mb-14" onClick={ () => {router.push('../signUpPage')}}>Dismiss Message</Button>
         </div>
       </div>
     </div>

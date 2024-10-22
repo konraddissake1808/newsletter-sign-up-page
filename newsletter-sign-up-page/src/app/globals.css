@@ -106,6 +106,13 @@ body {
   margin-bottom: 26px;
 }
 
+@media (width > 374px) {
+  #validation-button {
+      margin-top: 26px;
+      margin-bottom: 26px;
+  }
+}
+
 #form-input {
   margin-top: 0;
 }
