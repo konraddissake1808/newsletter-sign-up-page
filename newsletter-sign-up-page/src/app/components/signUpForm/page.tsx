@@ -17,7 +17,7 @@ import {
   FormMessage,
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
-import { redirect } from "next/navigation"
+
 
 const FormSchema = z.object({
   email: z.string().email({
@@ -50,23 +50,23 @@ function SignUpForm() {
   }
 
   return (
-    <div className="flex w-full justify-center">
+    <div className="flex w-full justify-center text-sm mt-4">
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
+        <form onSubmit={form.handleSubmit(onSubmit)} className="w-5/6 space-y-6">
           <FormField
             control={form.control}
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Email address</FormLabel>
+                <FormLabel className="text-xs">Email address</FormLabel>
                 <FormControl>
-                  <Input className="bg-white" type="email" placeholder="email@company.com" {...field} />
+                  <Input id="form-input" className="bg-white" type="email" placeholder="email@company.com" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
             )}
           />
-          <Button type="submit">Submit</Button>
+          <Button id="validation-button" className="w-full h-10 text-sm" type="submit">Subscribe to monthly newsletter</Button>
         </form>
       </Form>
     </div>

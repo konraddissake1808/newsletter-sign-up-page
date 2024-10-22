@@ -8,6 +8,15 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	screens: {
+		'xs': '320px',
+    	'sm': '375px',
+		'md': '425px',
+		'lg': '768px',
+		'xl': '1024px',
+		'2xl': '1440px',
+		'2k': '2560px',
+    },
   	extend: {
 		fontFamily: {
 			roboB: ['var(--font-roboto-bold)'],

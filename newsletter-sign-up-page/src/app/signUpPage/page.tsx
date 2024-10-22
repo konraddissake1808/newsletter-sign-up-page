@@ -6,7 +6,7 @@ import SignUpForm from '../components/signUpForm/page'
 
 function SignUpPage() {
   return (
-    <div>
+    <div className='h-screen'>
       <SignUpPageImage></SignUpPageImage>
       <SignUpText></SignUpText>
       <SignUpForm></SignUpForm>
