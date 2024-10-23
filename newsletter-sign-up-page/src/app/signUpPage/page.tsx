@@ -6,7 +6,7 @@ import SignUpForm from '../components/signUpForm/page'
 
 function SignUpPage() {
   return (
-    <div className='bg-darkSlategrey lg:w-full h-screen lg:flex lg:justify-center lg:items-center'>
+    <div className='bg-charcoalGrey lg:w-full h-screen lg:flex lg:justify-center lg:items-center text-darkSlategrey'>
       <div className='bg-white h-full lg:rounded-3xl lg:flex lg:flex-row-reverse lg:h-[480px] lg:w-[720px]'>
         <SignUpPageImage></SignUpPageImage>
         <div className='lg:h-full lg:flex lg:justify-center lg:items-center'>

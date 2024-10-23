@@ -66,7 +66,7 @@ function SignUpForm() {
               </FormItem>
             )}
           />
-          <Button id="validation-button" className="w-full h-10 text-sm" type="submit">Subscribe to monthly newsletter</Button>
+          <Button id="validation-button" className="w-full h-10 text-sm bg-darkSlategrey hover:bg-tomato duration-200" type="submit">Subscribe to monthly newsletter</Button>
         </form>
       </Form>
     </div>
